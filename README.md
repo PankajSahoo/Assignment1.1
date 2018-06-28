@@ -1,18 +1,18 @@
-# Assignment1.1
-1.a).  Prescriptive Analytics used to predict the future outcomes?
-Ans: False
+# R_Assignment-2.1
+
+1. What are the different methods to call a function in R?
+
+Solution> 
+a.For Built_In Function —> User Directly call using their                         function_Name.
+Eg: print(mean(46,37))
+
+b.For User_Defined Function -> By Using its Function_name and its arguments(if Required) call a Fuction.
 
 
-1.b) Base R packages installed automatically?
- Ans:True
- 
- 
-2. What is Recycling of elements in a vector?
-When applying an operation to two vectors that requires them to be the same length, R automatically recycles, or repeats, the shorter one,
-until it is long enough to match the longer one.
+2. The lazy evaluation of a function means , the argument is evaluated only if it is evaluated only if it is used inside the body of the function.   [  TRUE ]
 
-
-
-3. Give an example of recycling of elements.
-> c(5,6,8) + c(8,2,11,22,24)
-[1]  13 8 19 27 32
+3
+a. Insights driven from descriptive analytics is not meaningful.[True]
+b. The number of values in each Elements of a list, should be equal.[False]
+c. The datasets are not stored in memory of the computer using R.[False]
+d. Data frames and matrices are two dimensional however the array is multidimensional.[False ]
